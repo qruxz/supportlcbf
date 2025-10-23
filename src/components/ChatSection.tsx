@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Send, Languages } from "lucide-react";
 
-const API_BASE_URL = 'http://localhost:5001';
+const API_BASE_URL = 'https://supportlcb-production.up.railway.app/';
 
 interface Message {
   id: string;
